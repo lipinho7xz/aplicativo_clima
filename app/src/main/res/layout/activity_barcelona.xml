@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BarcelonaPage"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/barcelona"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barcelona é uma cidade vibrante e cosmopolita no nordeste da Espanha, capital da Catalunha, conhecida por sua rica história, arquitetura modernista, gastronomia e cultura. É uma das cidades europeias mais visitadas, com uma combinação de atrações históricas, culturais e de lazer."/>
+
+</LinearLayout>

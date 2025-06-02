@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/QatarPage"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/qatar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O Catar (ou Qatar) é um pequeno país localizado no Oriente Médio, na Península Arábica. Sua capital é Doha, e o país faz fronteira terrestre com a Arábia Saudita, sendo cercado pelo Golfo Pérsico. É conhecido por suas enormes reservas de petróleo e gás natural, o que impulsionou seu rápido crescimento econômico e urbano nas últimas décadas. O Catar tem uma população pequena, mas abriga muitos estrangeiros que trabalham no país. Em 2022, ficou mundialmente conhecido por sediar a Copa do Mundo da FIFA, sendo o primeiro país árabe a receber o evento."/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/clima"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="A ClimaWebs® conecta dados e tecnologia para enfrentar as mudanças climáticas. Oferecemos informações climáticas em tempo real e soluções digitais que ajudam pessoas e organizações a tomarem decisões mais sustentáveis. Nosso objetivo é transformar informação em ação climática."
+
+        />
+
+
+
+
+</RelativeLayout>
