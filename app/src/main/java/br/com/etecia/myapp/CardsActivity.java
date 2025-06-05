@@ -37,7 +37,8 @@ public class CardsActivity extends AppCompatActivity {
         purpleCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CardsActivity.this, "CardView clicado!!!!!!!!!!!!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CardsActivity.this, TurkeyActivity.class);
+                startActivity(intent);
             }
         });
         greenCard.setOnClickListener(new View.OnClickListener() {
@@ -68,5 +69,7 @@ public class CardsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }

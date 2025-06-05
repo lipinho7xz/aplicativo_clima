@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TurkeyPage"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/turquia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Turquia é uma nação que se estende do leste da Europa ao oeste da Ásia e mantém conexões culturais com os antigos impérios grego, persa, romano, bizantino e otomano. A cosmopolita Istambul, no Estreito de Bósforo, abriga a famosa Basílica de Santa Sofia, com sua cúpula elevada e seus mosaicos cristãos, a enorme Mesquita Azul, do século XVII, e o Palácio de Topkapı, datado aproximadamente de 1460, uma antiga residência de sultões. Ankara é a capital moderna da Turquia. "/>
+
+</LinearLayout>

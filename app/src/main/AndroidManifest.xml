@@ -12,34 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
-
+        <activity
+            android:name=".EgitoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TurkeyActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".BarcelonaActivity">
-        </activity>
-
-        <activity
-            android:name=".QatarActivity">
-        </activity>
-
-        <activity
-            android:name=".SobreActivity">
-        </activity>
-
-        <activity
-            android:name=".CardsActivity">
-        </activity>
-
+        <activity android:name=".BarcelonaActivity" />
+        <activity android:name=".QatarActivity" />
+        <activity android:name=".SobreActivity" />
+        <activity android:name=".CardsActivity" />
     </application>
 
 </manifest>
