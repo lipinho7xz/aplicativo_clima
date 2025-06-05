@@ -31,7 +31,8 @@ public class CardsActivity extends AppCompatActivity {
         blueCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CardsActivity.this, "CardView clicado!!!!!!!!!!!!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CardsActivity.this, EgitoActivity.class);
+                startActivity(intent);
             }
         });
         purpleCard.setOnClickListener(new View.OnClickListener() {
