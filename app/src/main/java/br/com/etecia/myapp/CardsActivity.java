@@ -45,13 +45,15 @@ public class CardsActivity extends AppCompatActivity {
         greenCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CardsActivity.this, "CardView clicado!!!!!!!!!!!!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CardsActivity.this, HolandaActivity.class);
+                startActivity(intent);
             }
         });
         orangeCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CardsActivity.this, "CardView clicado!!!!!!!!!!!!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CardsActivity.this, BrasilActivity.class);
+                startActivity(intent);
             }
         });
 
